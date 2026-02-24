@@ -1987,7 +1987,7 @@ def test_equals():
 
     # issue 29159
     T = Function('T')
-    assert T(n*log(n)).equals(T(n)) is not True
+    assert T(n*log(n)).equals(T(n)) is None
 
 
 def test_random():
