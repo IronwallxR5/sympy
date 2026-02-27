@@ -390,7 +390,7 @@ def solve_triangulated(polys, *gens, **args):
     ======
 
     NotImplementedError
-        If the system is not zero-dimensional, that is it has 
+        If the system is not zero-dimensional, that is it has
         infinitely many solutions.
 
     Examples
